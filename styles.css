@@ -1,0 +1,29 @@
+/* css styles */
+.navbar-dark, .quarto-title-banner {
+body {
+  background-color: #f0f0f0;
+}
+
+body, p {
+  color: #333333;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+  font-family: 'Arial', sans-serif;
+}
+a {
+  color: #007bff;
+}
+
+}
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  height: 200px;
+}
+
+a {
+  text-decoration: none;
+}
+
