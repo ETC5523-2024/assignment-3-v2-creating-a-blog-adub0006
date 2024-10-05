@@ -1,12 +1,86 @@
 ---
-title: "Welcome To My Blog Template"
-author: "Emi Tanaka"
-date: "2022-07-18"
+title: "Which Form of Transport Has the Smallest Carbon Footprint?"
+author: "Avni Dubey"
+date: "2024-10-04"
 categories: [news]
+    
 ---
 
-This is the first post in a Quarto blog. Welcome!
+Welcome to my Blog Post
+
 
 ![](thumbnail.jpg)
+
+
+## Introduction: How Much Do Your Travel Choices Affect the Environment?
+
+As the world tackles the climate crisis, it’s becoming clear that how we choose to travel can make a big impact on the planet. From flying across countries to driving to work, the emissions we produce are contributing to global carbon dioxide (CO2) levels, which in turn accelerate climate change. 
+
+But did you know that some forms of transport are far more eco-friendly than others? This blog post will explore which modes of transport have the smallest carbon footprint, using data from the **UK Government’s Department for Energy Security and Net Zero (2022)**, and provide some insights into how you can reduce your travel-related emissions.
+
+## The Problem: Carbon Emissions from Transport
+
+Transport accounts for roughly one-quarter of global CO2 emissions. In developed countries with extensive infrastructure, it represents a significant portion of an individual’s carbon footprint. The key question many environmentally conscious travelers are asking is: **Which form of transport is the least harmful to the planet, and how can we make smarter choices?**
+
+---
+
+## Data Overview: What Do the Numbers Tell Us?
+
+We analyzed data provided by the **Our World Data (UK Government’s Department for Energy Security and Net Zero (2022))**, which compared carbon emissions (in grams of CO2 per kilometre) for various transport modes. The following key variables were considered:
+
+- **gCO2eq/km**: Grams of CO2-equivalent emitted per kilometre traveled, considering all greenhouse gases.
+
+- **Transport mode**: The specific type of transport, including domestic flights, diesel cars, electric vehicles, trains, and buses etc.
+
+
+| **Transport Mode**       | **Emissions (gCO2/km)** |
+|--------------------------|-------------------------|
+|  Domestic Flights        | 245.9                   |
+|  Diesel Cars             | 170.8                   |
+|  Petrol Cars             | 170.5                   |
+|  Electric Vehicles       | 47.1                    |
+|  National Rail           | 35.5                    |
+|  London Underground      | 28.6                    |
+|  Eurostar (to Paris)     | 4.5                     |
+
+*Table 1: Carbon emissions per kilometre for various transport modes.* {#table-1}
+
+
+
+As shown in [Table 1](#table-1) , domestic flights have the highest emissions per kilometre, while public transport options like the Eurostar and London Underground produce significantly lower emissions.
+
+
+### Data Cleaning Steps:
+The dataset was cleaned to remove irrelevant or outdated transport modes and focused only on modern, frequently used forms of transport. Missing data was handled by interpolation where needed.
+---
+
+## Analysis: The Clear Winners and Losers
+
+From the table above, it’s clear that **domestic flights** are the biggest offenders in terms of carbon emissions, producing a staggering 245.9 gCO2 per kilometre traveled. Diesel and petrol cars follow closely, with each emitting around 170 gCO2 per kilometre.
+
+On the other end of the spectrum, **trains** emerge as the most environmentally friendly option. The Eurostar train, for example, emits just 4.5 gCO2/km, making it by far the most eco-conscious choice for long-distance travel.
+
+If you want to minimize your carbon footprint, switching from car travel to public transport (trains, buses) or even electric vehicles will make a significant difference. **[Figure 1](#figure-1)** below visualizes these differences, showing the drastic reductions in emissions when using greener forms of transport.
+
+![Figure 1: Carbon emissions comparison for different transport modes.](figure1.png)
+
+
+### What Does This Mean for the Average Traveler?
+
+If you want to minimize your carbon footprint, switching from car travel to public transport (trains, buses) or even electric vehicles will make a significant difference .@fig-transport above visualizes these differences, showing the drastic reductions in emissions when using greener forms of transport.
+
+---
+
+## Conclusion: Reducing Your Travel Emissions
+
+The data is clear: if you’re looking to reduce your carbon emissions, **trains**, **public transport**, and **electric vehicles** are the way to go. Walking and cycling for shorter trips are, of course, the best options when feasible, emitting no CO2 at all.
+
+For long-distance travel, **trains like the Eurostar** are by far the most eco-friendly option. If we want to contribute to the global effort to reduce emissions, making small changes in our daily travel choices can add up to a big difference over time.
+
+---
+
+## Academic Citation
+
+*Which form of transport has the smallest carbon footprint? How can individuals reduce their emissions from transport?*Ritchie, H. (2023, August 30) Our World in Data. Retrieved from [https://ourworldindata.org/travel-carbon-footprint](https://ourworldindata.org/travel-carbon-footprint)
 
 

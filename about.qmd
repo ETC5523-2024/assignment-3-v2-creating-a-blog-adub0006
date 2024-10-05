@@ -1,13 +1,24 @@
 ---
-title: "About"
-image: profile.jpg
+title: "About Me"
+image: IMG.webp 
 about:
   template: jolla
   links:
     - icon: github
-      text: Github
-      href: https://github.com/etc5523-2022
+      text: GitHub
+      href: https://github.com/adub0006 
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/avni-dubey 
 
 ---
+Hi! I’m **Avni Dubey**, currently pursuing a Master of Business Analytics at Monash University, Clayton campus. I’m passionate about data visualization, analytics, and using data to solve real-world problems.
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+With experience in R and statistical analysis, I love working on projects that uncover insights and create impactful stories with data. Currently, my focus is on sustainable solutions, especially in the area of carbon emissions and transportation, as seen in my recent work on analyzing carbon footprints for different transport modes.
+
+When I'm not working with data, you can find me exploring Melbourne or trying out new recipes in my kitchen. Connect with me on GitHub or LinkedIn to discuss data, analytics, or anything else!
+
+# Links to My Work
+- [My GitHub Projects](https://github.com/adub0006)  
+- [My LinkedIn Profile](https://www.linkedin.com/in/avni-dubey)
+
